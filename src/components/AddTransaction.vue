@@ -33,10 +33,7 @@ const handleSubmit = () => {
       <input type="text" id="text" v-model="text" placeholder="Enter text..." />
     </div>
     <div class="form-control">
-      <label for="amount"
-        >Amount <br />
-        (negative - expense, positive - income)</label
-      >
+      <label for="amount">Amount</label>
       <input
         type="text"
         id="amount"
